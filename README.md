@@ -1,32 +1,33 @@
-#🐾 Pet Activity Tracker
+# 🐾 Pet Activity Tracker
 
-###Stack:
+---
 
-Frontend: React (Vite) with TailwindCSS for responsive UI.
+## 🛠 Stack
 
-Backend: Node.js + Express with in-memory data store (no database).
+**Frontend:** React (Vite) with TailwindCSS for responsive UI  
+**Backend:** Node.js + Express with in-memory data store (no database)  
+**API:** REST endpoints for activities, summaries, and chatbot interactions
 
-API: REST endpoints for activities, summaries, and chatbot interactions.
+---
 
+## ✨ Features
 
-###Features:
+- **Log pet activities:** walk, meal, medication  
+- **View daily summary:** with progress rings  
+- **Interactive chatbot:** provides real-time updates and reminders
 
-Log pet activities: walk, meal, medication.
+---
 
-View daily summary with progress rings.
+## ⚡ Run Steps
 
-Interactive chatbot providing real-time updates and reminders.
-
-
-###Run Steps:
-
-1. Backend:
+### Backend
 
 cd backend
 npm install
 node index.js
 
-Runs at http://localhost:4000.
+
+Runs at: http://localhost:4000
 
 
 2. Frontend:
